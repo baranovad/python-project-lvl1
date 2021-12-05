@@ -1,4 +1,4 @@
-"""brain games even."""
+"""brain games."""
 
 import prompt
 
