@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""brain-games make progression"""
+"""brain-games find prime number"""
 
-from brain_games.progression import count_round
+from brain_games.primenumber import find_primenumber
 
 
 def main():
     """brain-games script."""
-    count_round()
+    find_primenumber()
 
 
 if __name__ == '__main__':
