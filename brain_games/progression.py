@@ -35,6 +35,8 @@ def count_round():
                   f'Correct answer was {correct_answer}.)')
             print(f"Let's try again {name}")
             return
+        else:
+            print('Correct!')
         round -= 1
         print(f'Congratulations, {name}!')
 
