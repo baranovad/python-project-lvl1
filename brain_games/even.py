@@ -1,7 +1,8 @@
 """Try to figure out if number is odd or even"""
+import random
 
 import prompt
-import random
+import rando
 
 def is_even(number):
     return number % 2 == 0
@@ -17,7 +18,7 @@ def brain_games_even():
         print('Question:{0}'.format(number))
         user_answer = prompt.string('Your answer:')
         correct_answer = 'yes' if is_even(number) else 'no'
-        if (correct_answer != user_answer):
+        if correct_answer != user_answer:
             print(f'{user_answer} is wrong answer ;(. '
                   f'Correct answer was {correct_answer}.)')
             print(f"Let's try again {name}")
