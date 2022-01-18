@@ -1,5 +1,4 @@
-"""Try to figure out if number is odd or even"""
-
+"""Try to figure out if number is odd or even."""
 
 import prompt
 import random
@@ -27,11 +26,3 @@ def brain_games_even():
             return
         count_round -= 1
     print(f'Congratulations, {name}!')
-
-
-
-
-
-
-
-

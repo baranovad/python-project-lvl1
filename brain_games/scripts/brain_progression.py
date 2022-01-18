@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""brain-games make progression"""
+"""brain-games make progression."""
 
 from brain_games.progression import count_round
 

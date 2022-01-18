@@ -1,19 +1,20 @@
-"""Make a calculator"""
-
+"""Make a calculator."""
 
 import prompt
 import random
 
+"""Calculator."""
+
 
 def calculate(number1, number2, operator):
-    result = 0
+    result_calc = 0
     if operator == '+':
-        result = number1 + number2
+        result_calc = number1 + number2
     elif operator == '-':
-        result = number1 - number2
+        result_calc = number1 - number2
     elif operator == '*':
-        result = number1 * number2
-    return result
+        result_calc = number1 * number2
+    return result_calc
 
 
 def brain_games_calc():
@@ -32,16 +33,11 @@ def brain_games_calc():
         user_answer = prompt.string('Your answer:')
         correct_answer = str(calculate(number1, number2, picked_operator))
         if correct_answer != user_answer:
-            print(f"{user_answer} is wrong answer ;(. "
-                  f"Correct answer was {correct_answer}.)")
+            print(f'{user_answer} is wrong answer ;(. '
+                  f'Correct answer was {correct_answer}.)')
             print(f"Let's try again {name}")
             return
         else:
             print('Correct!')
         count_round -= 1
     print(f'Congratulations, {name}!')
-
-
-
-
-

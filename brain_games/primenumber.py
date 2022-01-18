@@ -1,3 +1,5 @@
+"""Find a prime number."""
+
 import prompt
 from random import randint
 
@@ -33,8 +35,3 @@ def find_primenumber():
             print('Correct!')
         count_round -= 1
     print(f'Congratulations, {name}!')
-
-
-
-
-

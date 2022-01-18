@@ -1,4 +1,4 @@
-"""Try to figure out greatest common factor"""
+"""Try to figure out the greatest common factor."""
 
 import prompt
 import random
@@ -26,7 +26,3 @@ def brain_gcd():
             print('Correct!')
         count_round -= 1
     print(f'Congratulations, {name}!')
-
-
-
-

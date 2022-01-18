@@ -1,7 +1,10 @@
+"""Find a progression."""
+
 from random import randint
 import prompt
 
 PROGRESSION_LENGTH = 10
+
 
 def make_progression(init_value, difference, hidden_index):
     counter = 0
@@ -39,7 +42,3 @@ def count_round():
             print('Correct!')
         round -= 1
         print(f'Congratulations, {name}!')
-
-
-
-
