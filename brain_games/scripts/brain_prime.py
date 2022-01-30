@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""brain-games greatest common factor."""
+"""brain-games find prime number."""
 
 from brain_games import engine, games
 
 
 def main():
     """brain-games script."""
-    engine.run(games.gcd)
+    engine.run(games.prime)
 
 
 if __name__ == '__main__':
