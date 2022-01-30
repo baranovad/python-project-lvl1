@@ -1,5 +1,7 @@
 ### Code climate tests 
 [![Maintainability](https://api.codeclimate.com/v1/badges/20da8366e002522c957a/maintainability)](https://codeclimate.com/github/Beautydarita/python-project-lvl1/maintainability)
+### GitHub actions badge
+[![GitHub Actions Demo](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml)
 ### Hexlet tests and linter status
 [![Actions Status](https://github.com/Beautydarita/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions)
 ##«Игры разума»  
