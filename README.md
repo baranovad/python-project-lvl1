@@ -1,19 +1,6 @@
-### Code climate tests 
 [![Maintainability](https://api.codeclimate.com/v1/badges/20da8366e002522c957a/maintainability)](https://codeclimate.com/github/Beautydarita/python-project-lvl1/maintainability)
-### GitHub actions badge
 [![GitHub Actions Demo](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml)
-### Hexlet tests and linter status
 [![Actions Status](https://github.com/Beautydarita/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions)
-##«Игры разума»  
-Набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. 
-Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается,
-что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
- ####Игры:
- - Калькулятор. Арифметические выражения, которые необходимо вычислить.
- - Прогрессия. Поиск пропущенных чисел в последовательности чисел.
- - Определение четного числа.
- - Определение наибольшего общего делителя.
- - Определение простого числа.
 ## "Brain games"
  This app contains five console games. Every game contains questions, that the user should answer. 
 The game is completed after three correct answers. The game is over after the wrong answer and the user 
