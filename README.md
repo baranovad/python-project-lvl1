@@ -1,6 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/20da8366e002522c957a/maintainability)](https://codeclimate.com/github/Beautydarita/python-project-lvl1/maintainability)
-[![GitHub Actions Demo](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/github-actions-demo.yml)
-[![Actions Status](https://github.com/Beautydarita/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions)
+[![GitHub Actions Demo](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/app-check.yml/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/app-check.yml)
+[![Actions Status](https://github.com/Beautydarita/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Beautydarita/python-project-lvl1/actions/workflows/hexlet-check.yml)
 ## "Brain games"
  This app contains five console games. Every game contains questions, that the user should answer. 
 The game is completed after three correct answers. The game is over after the wrong answer and the user 
