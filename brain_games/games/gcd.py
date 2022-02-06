@@ -1,6 +1,6 @@
 """Try to figure out the greatest common factor."""
 
-from random import randint, choice
+from random import randint
 import math
 
 
