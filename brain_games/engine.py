@@ -1,4 +1,4 @@
-"""core for the games"""
+"""Core for the games."""
 
 import prompt
 
