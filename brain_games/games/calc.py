@@ -1,7 +1,9 @@
 """Make a calculator."""
 from random import randint, choice
 
+
 def calculate(number1, number2, operator):
+    """Calculate the random numbers."""
     result_calc = 0
     if operator == '+':
         result_calc = number1 + number2
@@ -13,6 +15,7 @@ def calculate(number1, number2, operator):
 
 
 def generate_data():
+    """Generate data for random numbers."""
     number1 = randint(1, 10)
     number2 = randint(1, 10)
 

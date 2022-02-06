@@ -5,6 +5,7 @@ import math
 
 
 def generate_data():
+    """generate_data() helps generate the game."""
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     question = '{} {}'.format(number1, number2)

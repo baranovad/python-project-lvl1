@@ -7,6 +7,7 @@ PROGRESSION_LENGTH = 10
 
 
 def make_progression(init_value, difference, hidden_index):
+    """make_progression(init_value, difference, hidden_index) helps to make a progression."""
     counter = 0
     string_result = ''
     while counter < PROGRESSION_LENGTH:
@@ -20,6 +21,7 @@ def make_progression(init_value, difference, hidden_index):
 
 
 def generate_data():
+    """generate_data() helps to generate datas."""
     init_value = randint(1, 10)
     difference = randint(2, 10)
     hidden_index = randint(0, PROGRESSION_LENGTH - 1)
