@@ -1,7 +1,6 @@
 """Find a progression."""
 
 from random import randint
-import prompt
 
 PROGRESSION_LENGTH = 10
 

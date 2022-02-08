@@ -1,6 +1,5 @@
 """Find a prime number."""
 
-import prompt
 from random import randint
 
 
