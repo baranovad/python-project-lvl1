@@ -7,7 +7,7 @@ PROGRESSION_LENGTH = 10
 
 
 def make_progression(init_value, difference, hidden_index):
-    """make_progression(init_value, difference, hidden_index) helps to make a progression."""
+    """make_progression(init_value, difference, hidden_index) helps."""
     counter = 0
     string_result = ''
     while counter < PROGRESSION_LENGTH:
