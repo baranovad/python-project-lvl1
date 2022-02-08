@@ -21,4 +21,3 @@ def generate_data():
     question = randint(1, 100)
     correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer
-
