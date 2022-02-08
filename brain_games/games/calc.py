@@ -25,4 +25,3 @@ def generate_data():
     correct_answer = calculate(number1, number2, picked_operator)
 
     return question, str(correct_answer)
-
