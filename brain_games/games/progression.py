@@ -14,7 +14,7 @@ def make_progression(init_value, difference, hidden_index):
         if hidden_index == counter:
             string_result += ' ..'
         elif counter == 0:
-            string_result += str(current_value)
+            string_result += str(current_value) or '..'
         else:
             string_result += ' ' + str(current_value)
         counter += 1
