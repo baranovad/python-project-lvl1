@@ -12,7 +12,7 @@ def make_progression(init_value, difference, hidden_index):
     while counter < PROGRESSION_LENGTH:
         current_value = init_value + counter * difference
         if hidden_index == counter:
-            string_result += '..'
+            string_result += ' ..'
         elif counter == 0:
             string_result += str(current_value) or '..'
         else:
