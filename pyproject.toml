@@ -1,12 +1,12 @@
 [tool.poetry]
 name="hexlet-code"
 version = "0.1.0"
-description = "project"
-authors = ["daria"]
-license = "123"
+description = "Project: brain-games app contains five console game."
+authors = "Daria Baranova <tutorhomework1@gmail.com>"
 packages = [
   { include = "brain_games" },
 ]
+
 [tool.poetry.dependencies]
 python = "^3.6"
 prompt = "^0.4.1"
